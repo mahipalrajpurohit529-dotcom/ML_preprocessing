@@ -1,0 +1,34 @@
+insurance data
+train test split 
+first commit
+manually do work
+encode and fillna
+merge
+commit
+column transformer
+compare shape 
+commit
+
+
+
+
+Index(['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'charges'], dtype='str')
+
+
+
+ 1   sex       1338 non-null   str
+ 2   bmi       1338 non-null   float64
+ 3   children  1338 non-null   int64
+ 4   smoker    1338 non-null   str
+ 5   region    1338 non-null   str
+ 6   charges   1338 non-null   float64
+
+
+
+ age           47
+sex            2
+bmi          548
+children       6
+smoker         2
+region         4
+charges     1337

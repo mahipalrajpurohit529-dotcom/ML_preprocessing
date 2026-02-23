@@ -1,0 +1,20 @@
+   2 uv init .
+   3 uv venv
+   4 .venv\Scripts\activate
+   5 uv add -r requirements.txt
+   6 python app.py
+   7 python app.py
+   8 git init
+   9 git add  .
+  10 git commit -m "added"
+  11 git branch -M main
+  12 git remote add origin https://github.com/<username>/test-ml-pr.git
+  13 git push -u origin main
+  14 history
+  15 git add .
+  16 git commit -m "added"
+  17 git commit -m "all-done"
+  18 git push -u origin main
+  19 git add .
+  20 git commit -m "test-fix"
+  21 git push -u origin main
