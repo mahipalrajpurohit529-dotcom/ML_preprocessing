@@ -18,5 +18,4 @@ model = LogisticRegression()
 model.fit(x_train,y_train)
 
 joblib.dump(model , 'lr_model.pkl')
-
 print(df)
